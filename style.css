@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Ubuntu Mono", monospace;
   font-size: 12px;
   border-top: 8px solid #000;
 }
@@ -17,7 +17,7 @@ a:hover {
   text-decoration: none;
 }
 h3 {
-  font-family: Roboto, sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-size: 30px;
   margin-bottom: 12px;
 }
