@@ -1,7 +1,9 @@
 body {
-  font-family: "Ubuntu Mono", monospace;
-  font-size: 14px;
-  border-top: 8px solid #000;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  border-top: 8px solid #000000;
+  background: #040404;
+  color: #fff;
 }
 * {
   margin: 0;
@@ -10,14 +12,15 @@ body {
   overflow: hidden;
 }
 a {
-  color: #000;
-  line-height: 20px;
-}
-a:hover {
+  color: #fff;
+  line-height: 24px;
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 h3 {
-  font-family: Ubuntu, sans-serif;
+  font-family: "Roboto", monospace;
   font-size: 30px;
   margin-bottom: 12px;
 }
@@ -31,12 +34,6 @@ h3 {
 }
 .container-flex:last-child {
   margin-bottom: 0;
-}
-.logo {
-  height: 63px;
-  width: 63px;
-  background: #000;
-  margin-bottom: 32px;
 }
 .bookmarks {
   width: 100%;
