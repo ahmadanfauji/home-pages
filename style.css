@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   font-size: 12px;
-  background: #263238;
+  background: #001f27;
   color: #fff;
 }
 * {
@@ -11,21 +11,21 @@ body {
   overflow: hidden;
 }
 a {
-  color: #cfd8dc;
+  color: #a1b0b4;
   line-height: 24px;
   text-decoration: none;
   transition: 0.1s ease;
 }
 a:hover {
   text-decoration: underline;
-  color: #fff;
+  color: #a1b0b4;
   transition: 0.1s ease;
 }
 h3 {
   font-family: "Roboto", monospace;
   font-size: 30px;
   margin-bottom: 12px;
-  color: #00bcd4;
+  color: #3caeca;
 }
 .container {
   margin: 64px;
