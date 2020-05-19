@@ -1,8 +1,14 @@
 body {
-  font-family: "Roboto Mono", monospace;
-  font-size: 12px;
-  background: #001f27;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 11px;
+  background: #000000;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  transform: translateY(100%);
 }
 * {
   margin: 0;
@@ -10,34 +16,52 @@ body {
   box-sizing: border-box;
   overflow: hidden;
 }
+h1 span {
+  color: #666666;
+}
 a {
-  color: #a1b0b4;
+  color: #ffffff;
   line-height: 24px;
   text-decoration: none;
   transition: 0.1s ease;
 }
 a:hover {
-  text-decoration: underline;
-  color: #a1b0b4;
+  color: #666666;
   transition: 0.1s ease;
 }
 h3 {
-  font-family: "Roboto", monospace;
-  font-size: 30px;
-  margin-bottom: 12px;
-  color: #3caeca;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: #666666;
 }
-.container {
-  margin: 64px;
-}
-.container-flex {
+.bookmarks-box {
   display: flex;
-  max-width: 600px;
-  margin-bottom: 32px;
-}
-.container-flex:last-child {
-  margin-bottom: 0;
+  flex-wrap: wrap;
 }
 .bookmarks {
-  width: 100%;
+  border: 2px solid #171717;
+  border-right-width: 0;
+  padding: 3em;
+}
+.bookmarks:last-child {
+  border-right-width: 2px;
+}
+
+@media (max-width: 768px) {
+  body {
+    transform: translateY(0%);
+  }
+  .bookmarks-box {
+    margin-top: 3em;
+    flex-direction: column;
+  }
+  .bookmarks {
+    border-bottom-width: 0;
+    border-right-width: 2px;
+    padding: 3em 6em;
+  }
+  .bookmarks:last-child {
+    border-bottom-width: 2px;
+  }
 }
