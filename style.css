@@ -4,7 +4,7 @@ body {
   font-weight: 600;
   letter-spacing: 3px;
   font-size: 11px;
-  background: #000000;
+  background: #1A1A1A;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -26,21 +26,21 @@ a {
   transition: 0.1s ease;
 }
 a:hover {
-  color: #666666;
+  color: #5A5A5A;
   transition: 0.1s ease;
 }
 h3 {
   font-size: 11px;
   font-weight: 600;
   margin-bottom: 7px;
-  color: #666666;
+  color: #5A5A5A;
 }
 .bookmarks-box {
   display: flex;
   flex-wrap: wrap;
 }
 .bookmarks {
-  border: 2px solid #171717;
+  border: 2px solid #232323;
   border-right-width: 0;
   padding: 3em;
 }
